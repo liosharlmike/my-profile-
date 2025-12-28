@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mike | Cybersecurity Portfolio</title>
+  <meta name="description" content="Cybersecurity portfolio of mike inganga  – penetration testing, network security, Kali Linux, and defensive security projects." />
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --card: #111827;
+      --accent: #22d3ee;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(180deg, #020617, #0b0f14);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 4rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0 0 1rem;
+    }
+    header p {
+      max-width: 700px;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+    .accent { color: var(--accent); }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,.35);
+    }
+    .card h3 { margin-top: 0; }
+    .tag {
+      display: inline-block;
+      background: rgba(34,211,238,.1);
+      color: var(--accent);
+      padding: .25rem .6rem;
+      border-radius: 999px;
+      font-size: .75rem;
+      margin: .2rem .2rem 0 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hi, I’m <span class="accent">MIKE</span> 👋</h1>
+  <p>
+    A cybersecurity-focused technologist passionate about offensive and defensive security.
+    I work hands-on with <strong>Kali Linux</strong>, <strong>network security</strong>, and
+    <strong>real‑world labs</strong> to stay ahead of modern threats.
+  </p>
+</header>
+
+<section>
+  <h2>What I Do</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Penetration Testing</h3>
+      <p>Identifying vulnerabilities before attackers do. From recon to exploitation and reporting.</p>
+      <span class="tag">Nmap</span>
+      <span class="tag">Metasploit</span>
+      <span class="tag">Burp Suite</span>
+    </div>
+    <div class="card">
+      <h3>Network Security</h3>
+      <p>Designing and securing enterprise-style networks with firewalls, VLANs, DMZs, and VPNs.</p>
+      <span class="tag">Cisco</span>
+      <span class="tag">Firewalls</span>
+      <span class="tag">VPN</span>
+    </div>
+    <div class="card">
+      <h3>Defensive Security</h3>
+      <p>Hardening systems, monitoring traffic, and reducing attack surfaces.</p>
+      <span class="tag">Linux</span>
+      <span class="tag">Hardening</span>
+      <span class="tag">Monitoring</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Portable Cybersecurity Toolkit</h3>
+      <p>
+        A Kali Linux–based USB toolkit designed to scan IP ranges, enumerate services,
+        and identify common vulnerabilities. Built as a diploma project.
+      </p>
+      <span class="tag">Kali Linux</span>
+      <span class="tag">Automation</span>
+      <span class="tag">Vulnerability Scanning</span>
+    </div>
+    <div class="card">
+      <h3>Enterprise Network Simulation</h3>
+      <p>
+        A full Cisco Packet Tracer lab featuring firewalls, multilayer switches, DMZs,
+        VLAN segmentation, VPNs, and wireless controllers.
+      </p>
+      <span class="tag">Cisco Packet Tracer</span>
+      <span class="tag">DMZ</span>
+      <span class="tag">VLANs</span>
+    </div>
+    <div class="card">
+      <h3>Home Lab for Security & Gaming</h3>
+      <p>
+        A segmented home network built for hands-on cybersecurity practice while
+        maintaining performance for gaming.
+      </p>
+      <span class="tag">Home Lab</span>
+      <span class="tag">Routing</span>
+      <span class="tag">Security Zones</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Skills & Tools</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Operating Systems</h3>
+      <p>Kali Linux, Arch Linux, Linux administration & troubleshooting.</p>
+    </div>
+    <div class="card">
+      <h3>Security Tools</h3>
+      <p>Nmap, Metasploit, Wireshark, Burp Suite, Hydra, custom scripts.</p>
+    </div>
+    <div class="card">
+      <h3>Networking</h3>
+      <p>Firewalls, routing, switching, VPNs, wireless security, segmentation.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Mindset</h2>
+  <div class="card">
+    <p>
+      I approach security with a skeptical mindset: <em>assume breach, verify everything</em>.
+      I’m constantly learning, testing, and adapting—because attackers never stand still.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="card">
+    <p>
+      Want to collaborate, hire, or just talk security?
+      <br />
+      Reach out via email or connect with me on professional platforms.
+    </p>
+    <p>
+      📧 <a href="#">your.email@example.com</a> <br/>
+      🌐 <a href="#">GitHub / LinkedIn</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2025 mike  — Built with curiosity, caffeine, and paranoia.
+</footer>
+
+</body>
+</html>
